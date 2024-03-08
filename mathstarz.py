@@ -368,8 +368,6 @@ goodjob = PhotoImage(file = "Good job.gif")
 badjob = PhotoImage(file = "Bad job.gif")
 goodjob = goodjob.subsample(6, 6)
 badjob = badjob.subsample(6, 6)
-goodjob.config(alttext = "A poorly drawn picture of a smiling face and a thumbs up, with hand written words beneath it that say 'GOOD JOB!'")
-badjob.config(alttext = "A poorly drawn picture of a crying face and a thumbs down, with hand written words beneath it that say 'AWW TRY AGAIN'")
 
 picture = Label(frame8)
 picture.pack(side = TOP)
